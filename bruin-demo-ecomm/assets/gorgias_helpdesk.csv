@@ -1,0 +1,14 @@
+ticket_id,customer_id,email,created_at,resolved_at,status,category,sentiment,subject
+TK_001,C_001,mike@gmail.com,2026-01-07 09:00,,open,delivery,Angry,WHERE IS MY ORDER???
+TK_002,C_001,mike@gmail.com,2026-01-06 14:00,,open,delivery,Angry,Package still not arrived
+TK_003,C_001,mike@gmail.com,2026-01-05 10:00,,open,refund,Frustrated,I want a refund
+TK_004,C_003,lisa@work.com,2026-01-06 11:00,,open,delivery,Frustrated,Wrong address on package
+TK_005,C_003,lisa@work.com,2026-01-04 09:00,,open,refund,Frustrated,Need refund for damaged item
+TK_006,C_006,vince@auto.co,2026-01-05 15:00,,open,delivery,Frustrated,Package shows damaged
+TK_007,C_011,pete@fast.io,2026-01-07 08:00,,open,delivery,Angry,VIP order still not shipped!
+TK_008,C_011,pete@fast.io,2026-01-06 10:00,,open,refund,Angry,Want full refund NOW
+TK_009,C_014,sam@cool.net,2026-01-06 12:00,2026-01-06 14:00,resolved,question,Happy,When does my next box ship?
+TK_010,C_002,jane@me.com,2025-12-20 10:00,2025-12-20 12:00,resolved,question,Neutral,How to change delivery address?
+TK_011,C_005,sara@blog.io,2025-12-15 09:00,2025-12-15 11:00,resolved,question,Happy,Love my subscription!
+TK_012,C_008,ryan@tech.org,2025-12-28 14:00,2025-12-28 16:00,resolved,question,Happy,Thanks for quick shipping
+TK_013,C_017,victor@win.org,2025-12-22 11:00,2025-12-22 13:00,resolved,question,Happy,VIP perks are amazing

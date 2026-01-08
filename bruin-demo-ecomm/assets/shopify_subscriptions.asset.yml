@@ -1,0 +1,33 @@
+name: shopify_subscriptions
+type: bq.seed
+description: Raw subscription order events from Shopify
+
+parameters:
+    path: shopify_subscriptions.csv
+
+columns:
+  - name: order_id
+    type: STRING
+    description: Unique order identifier
+    primary_key: true
+  - name: customer_id
+    type: STRING
+    description: Customer identifier
+  - name: email
+    type: STRING
+    description: Customer email
+  - name: order_date
+    type: DATE
+    description: Order date
+  - name: amount
+    type: INTEGER
+    description: Order amount ($)
+  - name: product_name
+    type: STRING
+    description: Product name
+  - name: subscription_type
+    type: STRING
+    description: Subscription type (monthly/quarterly/annual)
+  - name: next_billing_date
+    type: DATE
+    description: Next billing date

@@ -1,0 +1,39 @@
+name: shipstation_logistics
+type: bq.seed
+description: Raw shipment tracking events from ShipStation
+
+parameters:
+    path: shipstation_logistics.csv
+
+columns:
+  - name: shipment_id
+    type: STRING
+    description: Unique shipment identifier
+    primary_key: true
+  - name: order_id
+    type: STRING
+    description: Order identifier
+  - name: customer_id
+    type: STRING
+    description: Customer identifier
+  - name: email
+    type: STRING
+    description: Customer email
+  - name: shipped_at
+    type: TIMESTAMP
+    description: Shipment date
+  - name: delivered_at
+    type: TIMESTAMP
+    description: Delivery date (null if not delivered)
+  - name: status
+    type: STRING
+    description: Shipment status (In Transit/Delivered/Stalled/Exception)
+  - name: carrier
+    type: STRING
+    description: Shipping carrier (UPS/FEDEX/USPS/DHL)
+  - name: tracking_number
+    type: STRING
+    description: Tracking number
+  - name: exception_reason
+    type: STRING
+    description: Exception reason if any (Lost in Transit/Damaged/Weather Delay/Address Issue)

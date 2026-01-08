@@ -1,0 +1,36 @@
+name: gorgias_helpdesk
+type: bq.seed
+description: Raw support ticket events from Gorgias
+
+parameters:
+    path: gorgias_helpdesk.csv
+
+columns:
+  - name: ticket_id
+    type: STRING
+    description: Unique ticket identifier
+    primary_key: true
+  - name: customer_id
+    type: STRING
+    description: Customer identifier
+  - name: email
+    type: STRING
+    description: Customer email
+  - name: created_at
+    type: TIMESTAMP
+    description: Ticket creation time
+  - name: resolved_at
+    type: TIMESTAMP
+    description: Ticket resolution time (null if open)
+  - name: status
+    type: STRING
+    description: Ticket status (open/resolved)
+  - name: category
+    type: STRING
+    description: Ticket category (delivery/refund/question)
+  - name: sentiment
+    type: STRING
+    description: Customer sentiment (Angry/Frustrated/Neutral/Happy)
+  - name: subject
+    type: STRING
+    description: Ticket subject

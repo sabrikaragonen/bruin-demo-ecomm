@@ -1,0 +1,36 @@
+name: klaviyo_marketing
+type: bq.seed
+description: Raw email marketing events from Klaviyo
+
+parameters:
+    path: klaviyo_marketing.csv
+
+columns:
+  - name: event_id
+    type: STRING
+    description: Unique event identifier
+    primary_key: true
+  - name: customer_id
+    type: STRING
+    description: Customer identifier
+  - name: email
+    type: STRING
+    description: Customer email
+  - name: event_type
+    type: STRING
+    description: Event type (email_sent/email_opened/email_clicked)
+  - name: event_timestamp
+    type: TIMESTAMP
+    description: Event timestamp
+  - name: campaign_name
+    type: STRING
+    description: Marketing campaign name
+  - name: email_subject
+    type: STRING
+    description: Email subject line
+  - name: clicked
+    type: BOOLEAN
+    description: Whether email was clicked
+  - name: opened
+    type: BOOLEAN
+    description: Whether email was opened

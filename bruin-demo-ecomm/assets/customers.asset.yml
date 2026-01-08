@@ -1,0 +1,30 @@
+name: customers
+type: bq.seed
+description: Customer master data for subscription e-commerce
+
+parameters:
+    path: customers.csv
+
+columns:
+  - name: customer_id
+    type: STRING
+    description: Unique customer identifier
+    primary_key: true
+  - name: email
+    type: STRING
+    description: Customer email
+  - name: first_name
+    type: STRING
+    description: Customer first name
+  - name: signup_date
+    type: DATE
+    description: Signup date
+  - name: subscription_status
+    type: STRING
+    description: Subscription status (Active/Cancelled/Paused)
+  - name: lifetime_value
+    type: INTEGER
+    description: Customer lifetime value ($)
+  - name: subscription_plan
+    type: STRING
+    description: Subscription plan (Basic/Premium/VIP)
