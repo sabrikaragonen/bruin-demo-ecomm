@@ -1,9 +1,8 @@
-name: klaviyo_marketing
 type: bq.seed
 description: Raw email marketing events from Klaviyo
 
 parameters:
-    path: klaviyo_marketing.csv
+    path: ../../../../seed-data/ecomm/klaviyo_marketing.csv
 
 columns:
   - name: event_id

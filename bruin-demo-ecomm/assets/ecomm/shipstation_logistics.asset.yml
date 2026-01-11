@@ -1,9 +1,8 @@
-name: shipstation_logistics
 type: bq.seed
 description: Raw shipment tracking events from ShipStation
 
 parameters:
-    path: shipstation_logistics.csv
+    path: ../../../../seed-data/ecomm/shipstation_logistics.csv
 
 columns:
   - name: shipment_id

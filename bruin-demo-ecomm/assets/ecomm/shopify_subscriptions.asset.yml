@@ -1,9 +1,8 @@
-name: shopify_subscriptions
 type: bq.seed
 description: Raw subscription order events from Shopify
 
 parameters:
-    path: shopify_subscriptions.csv
+    path: ../../../../seed-data/ecomm/shopify_subscriptions.csv
 
 columns:
   - name: order_id

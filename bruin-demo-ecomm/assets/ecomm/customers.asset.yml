@@ -1,9 +1,8 @@
-name: customers
 type: bq.seed
 description: Customer master data for subscription e-commerce
 
 parameters:
-    path: customers.csv
+    path: ../../../../seed-data/ecomm/customers.csv
 
 columns:
   - name: customer_id

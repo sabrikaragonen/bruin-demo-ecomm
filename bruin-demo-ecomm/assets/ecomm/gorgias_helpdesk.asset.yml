@@ -1,9 +1,8 @@
-name: gorgias_helpdesk
 type: bq.seed
 description: Raw support ticket events from Gorgias
 
 parameters:
-    path: gorgias_helpdesk.csv
+    path: ../../../../seed-data/ecomm/gorgias_helpdesk.csv
 
 columns:
   - name: ticket_id
