@@ -1,6 +1,6 @@
 # E-commerce Demo Dataset
 
-This dataset simulates a subscription-based e-commerce company (like a subscription box service) with 20 customers. All data is linked via `customer_id` and `email`.
+This dataset simulates a subscription-based e-commerce company (like a subscription box service) with 200 customers and expanded activity across orders, marketing, support, and shipping. All data is linked via `customer_id` and `email`.
 
 ## Data Sources
 
