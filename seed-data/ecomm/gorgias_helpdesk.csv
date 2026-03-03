@@ -1,0 +1,120 @@
+ticket_id,customer_id,email,created_at,resolved_at,status,category,sentiment,subject
+T00001,C0128,ella.0128@example.com,2025-10-27 20:41:57,2025-10-28 05:41:57,resolved,question,Neutral,Product question
+T00002,C0140,amelia.0140@example.com,2025-11-20 08:15:05,2025-11-22 06:15:05,resolved,delivery,Frustrated,Delivery issue
+T00003,C0140,amelia.0140@example.com,2025-12-20 22:45:48,2025-12-22 16:45:48,resolved,refund,Angry,Refund request
+T00004,C0140,amelia.0140@example.com,2026-01-19 14:25:48,2026-01-21 13:25:48,resolved,delivery,Neutral,Delivery issue
+T00005,C0002,isabella.0002@example.com,2025-10-21 10:06:12,2025-10-23 03:06:12,resolved,delivery,Frustrated,Delivery issue
+T00006,C0002,isabella.0002@example.com,2025-12-19 06:03:57,2025-12-21 06:03:57,resolved,refund,Frustrated,Refund request
+T00007,C0156,owen.0156@example.com,2026-02-19 14:10:16,2026-02-21 13:10:16,resolved,delivery,Frustrated,Delivery issue
+T00008,C0127,daniel.0127@example.com,2025-09-05 15:47:11,2025-09-06 00:47:11,resolved,question,Neutral,Product question
+T00009,C0061,sofia.0061@example.com,2025-11-20 12:19:32,2025-11-21 11:19:32,resolved,delivery,Neutral,Delivery issue
+T00010,C0061,sofia.0061@example.com,2025-10-12 05:33:59,2025-10-12 19:33:59,resolved,question,Neutral,Product question
+T00011,C0061,sofia.0061@example.com,2025-09-14 04:08:20,2025-09-15 14:08:20,resolved,refund,Neutral,Refund request
+T00012,C0056,ethan.0056@example.com,2026-01-12 04:13:35,2026-01-13 07:13:35,resolved,question,Happy,Product question
+T00013,C0151,daniel.0151@example.com,2026-02-09 13:36:01,2026-02-10 12:36:01,resolved,question,Frustrated,Product question
+T00014,C0169,avery.0169@example.com,2026-02-25 21:37:45,2026-02-26 01:37:45,resolved,refund,Frustrated,Refund request
+T00015,C0169,avery.0169@example.com,2025-12-31 18:57:58,2026-01-02 06:57:58,resolved,question,Neutral,Product question
+T00016,C0122,benjamin.0122@example.com,2026-02-28 03:48:52,2026-03-01 14:48:52,resolved,delivery,Neutral,Delivery issue
+T00017,C0122,benjamin.0122@example.com,2025-11-01 06:20:59,2025-11-01 09:20:59,resolved,delivery,Neutral,Delivery issue
+T00018,C0117,liam.0117@example.com,2025-09-13 20:34:30,,open,delivery,Frustrated,Delivery issue
+T00019,C0117,liam.0117@example.com,2025-11-12 20:44:55,2025-11-13 08:44:55,resolved,refund,Angry,Refund request
+T00020,C0105,isabella.0105@example.com,2025-09-23 16:32:07,,open,question,Happy,Product question
+T00021,C0105,isabella.0105@example.com,2025-11-01 01:40:24,2025-11-01 20:40:24,resolved,delivery,Angry,Delivery issue
+T00022,C0105,isabella.0105@example.com,2025-10-17 03:29:35,2025-10-18 00:29:35,resolved,delivery,Frustrated,Delivery issue
+T00023,C0114,ella.0114@example.com,2025-11-12 15:58:17,,open,question,Frustrated,Product question
+T00024,C0021,samuel.0021@example.com,2025-12-08 06:06:22,2025-12-09 14:06:22,resolved,question,Neutral,Product question
+T00025,C0021,samuel.0021@example.com,2025-11-06 01:03:17,,open,question,Happy,Product question
+T00026,C0154,samuel.0154@example.com,2025-09-28 19:48:11,,open,delivery,Happy,Delivery issue
+T00027,C0154,samuel.0154@example.com,2025-12-10 05:25:03,2025-12-10 15:25:03,resolved,delivery,Frustrated,Delivery issue
+T00028,C0186,mia.0186@example.com,2026-01-17 13:58:39,,open,delivery,Frustrated,Delivery issue
+T00029,C0186,mia.0186@example.com,2025-09-09 13:11:40,2025-09-11 05:11:40,resolved,question,Neutral,Product question
+T00030,C0198,ava.0198@example.com,2025-09-21 00:29:38,2025-09-22 20:29:38,resolved,question,Neutral,Product question
+T00031,C0063,olivia.0063@example.com,2026-01-03 01:15:38,,open,delivery,Frustrated,Delivery issue
+T00032,C0063,olivia.0063@example.com,2025-10-24 17:16:49,2025-10-25 23:16:49,resolved,question,Neutral,Product question
+T00033,C0141,camila.0141@example.com,2025-10-24 03:14:25,2025-10-25 20:14:25,resolved,refund,Angry,Refund request
+T00034,C0072,elijah.0072@example.com,2025-11-08 00:36:03,2025-11-08 19:36:03,resolved,delivery,Neutral,Delivery issue
+T00035,C0072,elijah.0072@example.com,2025-10-26 00:07:23,2025-10-26 12:07:23,resolved,delivery,Neutral,Delivery issue
+T00036,C0072,elijah.0072@example.com,2025-11-05 18:38:15,2025-11-05 23:38:15,resolved,delivery,Angry,Delivery issue
+T00037,C0159,charlotte.0159@example.com,2025-09-10 19:08:31,2025-09-11 00:08:31,resolved,delivery,Frustrated,Delivery issue
+T00038,C0159,charlotte.0159@example.com,2026-01-15 20:02:08,2026-01-17 11:02:08,resolved,refund,Frustrated,Refund request
+T00039,C0159,charlotte.0159@example.com,2025-11-26 13:44:51,2025-11-27 10:44:51,resolved,delivery,Frustrated,Delivery issue
+T00040,C0161,emma.0161@example.com,2026-02-05 03:36:37,2026-02-06 10:36:37,resolved,refund,Angry,Refund request
+T00041,C0161,emma.0161@example.com,2026-02-03 19:13:27,,open,refund,Frustrated,Refund request
+T00042,C0161,emma.0161@example.com,2026-01-11 21:53:54,2026-01-13 04:53:54,resolved,refund,Neutral,Refund request
+T00043,C0143,avery.0143@example.com,2026-02-15 04:59:58,,open,delivery,Frustrated,Delivery issue
+T00044,C0054,david.0054@example.com,2026-01-14 20:26:25,,open,delivery,Neutral,Delivery issue
+T00045,C0013,lucas.0013@example.com,2025-11-28 00:27:07,2025-11-28 06:27:07,resolved,refund,Angry,Refund request
+T00046,C0013,lucas.0013@example.com,2025-11-29 13:32:31,,open,delivery,Frustrated,Delivery issue
+T00047,C0048,evelyn.0048@example.com,2025-09-25 17:41:56,2025-09-26 20:41:56,resolved,question,Happy,Product question
+T00048,C0048,evelyn.0048@example.com,2025-11-03 06:39:46,2025-11-03 12:39:46,resolved,question,Happy,Product question
+T00049,C0048,evelyn.0048@example.com,2025-11-17 19:56:24,2025-11-18 12:56:24,resolved,refund,Frustrated,Refund request
+T00050,C0038,james.0038@example.com,2025-11-14 12:42:51,2025-11-15 03:42:51,resolved,question,Happy,Product question
+T00051,C0038,james.0038@example.com,2026-01-31 07:10:04,,open,refund,Angry,Refund request
+T00052,C0015,harper.0015@example.com,2025-10-16 20:33:32,2025-10-18 16:33:32,resolved,delivery,Happy,Delivery issue
+T00053,C0015,harper.0015@example.com,2025-12-21 11:54:40,,open,delivery,Angry,Delivery issue
+T00054,C0015,harper.0015@example.com,2025-11-03 04:22:18,2025-11-04 10:22:18,resolved,delivery,Happy,Delivery issue
+T00055,C0168,emily.0168@example.com,2025-12-26 04:05:23,2025-12-27 20:05:23,resolved,question,Neutral,Product question
+T00056,C0090,wyatt.0090@example.com,2026-01-04 05:52:01,2026-01-04 12:52:01,resolved,delivery,Frustrated,Delivery issue
+T00057,C0090,wyatt.0090@example.com,2025-12-22 18:34:28,,open,refund,Angry,Refund request
+T00058,C0010,dylan.0010@example.com,2026-01-07 07:55:49,2026-01-08 19:55:49,resolved,delivery,Neutral,Delivery issue
+T00059,C0174,camila.0174@example.com,2025-10-08 23:52:21,2025-10-09 21:52:21,resolved,delivery,Neutral,Delivery issue
+T00060,C0174,camila.0174@example.com,2026-01-10 22:58:26,2026-01-12 03:58:26,resolved,question,Frustrated,Product question
+T00061,C0009,mia.0009@example.com,2025-12-23 03:42:16,2025-12-24 13:42:16,resolved,delivery,Frustrated,Delivery issue
+T00062,C0148,oliver.0148@example.com,2025-09-13 02:51:15,2025-09-14 15:51:15,resolved,question,Neutral,Product question
+T00063,C0148,oliver.0148@example.com,2025-12-18 17:55:48,,open,delivery,Neutral,Delivery issue
+T00064,C0155,daniel.0155@example.com,2025-10-16 16:18:11,2025-10-18 07:18:11,resolved,delivery,Frustrated,Delivery issue
+T00065,C0077,noah.0077@example.com,2025-11-18 20:14:57,2025-11-20 08:14:57,resolved,delivery,Frustrated,Delivery issue
+T00066,C0077,noah.0077@example.com,2025-09-28 00:06:28,2025-09-29 02:06:28,resolved,question,Neutral,Product question
+T00067,C0085,camila.0085@example.com,2025-09-30 22:56:15,2025-10-02 18:56:15,resolved,delivery,Frustrated,Delivery issue
+T00068,C0085,camila.0085@example.com,2026-01-04 21:42:46,2026-01-06 21:42:46,resolved,question,Happy,Product question
+T00069,C0023,matthew.0023@example.com,2025-09-17 10:33:36,2025-09-18 14:33:36,resolved,question,Frustrated,Product question
+T00070,C0176,mia.0176@example.com,2025-12-27 08:50:44,,open,refund,Frustrated,Refund request
+T00071,C0176,mia.0176@example.com,2025-11-22 08:33:51,2025-11-23 14:33:51,resolved,delivery,Frustrated,Delivery issue
+T00072,C0176,mia.0176@example.com,2025-11-22 11:34:49,2025-11-24 01:34:49,resolved,refund,Frustrated,Refund request
+T00073,C0028,sofia.0028@example.com,2025-12-07 10:13:32,2025-12-08 22:13:32,resolved,refund,Angry,Refund request
+T00074,C0028,sofia.0028@example.com,2025-09-08 08:27:49,2025-09-10 07:27:49,resolved,delivery,Angry,Delivery issue
+T00075,C0028,sofia.0028@example.com,2026-01-13 01:57:01,2026-01-15 01:57:01,resolved,question,Angry,Product question
+T00076,C0107,benjamin.0107@example.com,2025-11-30 06:45:37,2025-12-01 17:45:37,resolved,question,Neutral,Product question
+T00077,C0107,benjamin.0107@example.com,2025-12-01 17:47:02,2025-12-03 13:47:02,resolved,question,Neutral,Product question
+T00078,C0046,isabella.0046@example.com,2025-12-14 16:50:28,,open,delivery,Frustrated,Delivery issue
+T00079,C0046,isabella.0046@example.com,2025-11-06 17:02:28,2025-11-06 19:02:28,resolved,refund,Frustrated,Refund request
+T00080,C0046,isabella.0046@example.com,2025-12-01 02:46:53,2025-12-02 01:46:53,resolved,delivery,Happy,Delivery issue
+T00081,C0042,samuel.0042@example.com,2025-10-27 03:48:32,2025-10-29 01:48:32,resolved,question,Happy,Product question
+T00082,C0042,samuel.0042@example.com,2026-01-20 03:56:01,,open,delivery,Neutral,Delivery issue
+T00083,C0073,sofia.0073@example.com,2025-10-03 19:57:58,2025-10-05 15:57:58,resolved,question,Frustrated,Product question
+T00084,C0073,sofia.0073@example.com,2025-12-31 05:31:41,2026-01-01 14:31:41,resolved,delivery,Angry,Delivery issue
+T00085,C0073,sofia.0073@example.com,2026-02-13 08:01:20,,open,delivery,Neutral,Delivery issue
+T00086,C0153,sofia.0153@example.com,2026-02-14 13:54:35,2026-02-14 22:54:35,resolved,refund,Neutral,Refund request
+T00087,C0153,sofia.0153@example.com,2026-01-22 11:50:12,2026-01-23 17:50:12,resolved,delivery,Frustrated,Delivery issue
+T00088,C0147,david.0147@example.com,2025-10-16 20:45:09,2025-10-18 07:45:09,resolved,question,Neutral,Product question
+T00089,C0147,david.0147@example.com,2025-09-17 09:20:21,,open,refund,Neutral,Refund request
+T00090,C0147,david.0147@example.com,2026-02-10 15:33:54,2026-02-11 19:33:54,resolved,question,Neutral,Product question
+T00091,C0144,benjamin.0144@example.com,2026-01-19 23:24:03,2026-01-20 14:24:03,resolved,refund,Neutral,Refund request
+T00092,C0144,benjamin.0144@example.com,2025-09-11 13:10:35,2025-09-11 22:10:35,resolved,delivery,Angry,Delivery issue
+T00093,C0180,camila.0180@example.com,2025-10-29 12:28:21,2025-10-31 00:28:21,resolved,delivery,Neutral,Delivery issue
+T00094,C0180,camila.0180@example.com,2025-11-15 17:51:36,2025-11-16 04:51:36,resolved,refund,Frustrated,Refund request
+T00095,C0190,matthew.0190@example.com,2026-02-28 01:10:12,,open,delivery,Frustrated,Delivery issue
+T00096,C0190,matthew.0190@example.com,2025-12-12 23:09:36,2025-12-13 03:09:36,resolved,delivery,Angry,Delivery issue
+T00097,C0149,matthew.0149@example.com,2026-02-11 22:26:24,2026-02-13 17:26:24,resolved,question,Neutral,Product question
+T00098,C0149,matthew.0149@example.com,2025-10-22 20:43:09,,open,delivery,Angry,Delivery issue
+T00099,C0093,dylan.0093@example.com,2026-01-29 03:08:41,2026-01-29 20:08:41,resolved,question,Happy,Product question
+T00100,C0093,dylan.0093@example.com,2025-10-08 20:25:10,2025-10-10 17:25:10,resolved,question,Neutral,Product question
+T00101,C0170,james.0170@example.com,2025-09-03 01:17:49,2025-09-03 07:17:49,resolved,delivery,Frustrated,Delivery issue
+T00102,C0170,james.0170@example.com,2025-09-21 04:14:34,2025-09-22 04:14:34,resolved,delivery,Frustrated,Delivery issue
+T00103,C0170,james.0170@example.com,2025-10-08 11:48:57,2025-10-10 04:48:57,resolved,delivery,Happy,Delivery issue
+T00104,C0024,harper.0024@example.com,2026-02-21 14:11:16,,open,question,Happy,Product question
+T00105,C0024,harper.0024@example.com,2026-01-16 11:52:08,,open,delivery,Neutral,Delivery issue
+T00106,C0024,harper.0024@example.com,2025-11-13 00:05:35,2025-11-14 19:05:35,resolved,refund,Happy,Refund request
+T00107,C0165,dylan.0165@example.com,2026-01-14 01:58:51,2026-01-14 21:58:51,resolved,refund,Neutral,Refund request
+T00108,C0083,ella.0083@example.com,2025-11-28 01:12:03,,open,delivery,Angry,Delivery issue
+T00109,C0083,ella.0083@example.com,2026-02-23 10:06:34,2026-02-24 08:06:34,resolved,delivery,Neutral,Delivery issue
+T00110,C0083,ella.0083@example.com,2025-10-24 20:15:11,,open,delivery,Frustrated,Delivery issue
+T00111,C0095,aria.0095@example.com,2025-10-21 03:28:44,,open,delivery,Angry,Delivery issue
+T00112,C0098,ethan.0098@example.com,2026-02-28 07:31:32,2026-03-01 10:31:32,resolved,delivery,Angry,Delivery issue
+T00113,C0098,ethan.0098@example.com,2025-09-28 22:29:41,2025-09-30 03:29:41,resolved,delivery,Neutral,Delivery issue
+T00114,C0018,camila.0018@example.com,2026-01-17 22:00:25,2026-01-18 02:00:25,resolved,delivery,Angry,Delivery issue
+T00115,C0018,camila.0018@example.com,2025-10-19 15:51:49,,open,delivery,Angry,Delivery issue
+T00116,C0110,daniel.0110@example.com,2026-01-03 08:10:43,2026-01-03 12:10:43,resolved,question,Neutral,Product question
+T00117,C0110,daniel.0110@example.com,2026-01-14 22:29:37,2026-01-16 01:29:37,resolved,refund,Frustrated,Refund request
+T00118,C0110,daniel.0110@example.com,2026-01-28 17:04:36,2026-01-29 22:04:36,resolved,delivery,Neutral,Delivery issue
+T00119,C0182,elijah.0182@example.com,2025-12-14 21:10:56,2025-12-15 23:10:56,resolved,question,Frustrated,Product question
